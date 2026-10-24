@@ -25,8 +25,8 @@ def main():
         total_kb = count * to_kb(avg_size, unit)
         total_mb = total_kb / 1024
 
-        print("Total size:", total_kb, "KB")
-        print("Total size:", total_mb, "MB")
+        print(f"Total size: {total_kb:.2f} KB")
+        print(f"Total size: {total_mb:.2f} MB")
     except ValueError as error:
         print("Invalid input:", error)
 
