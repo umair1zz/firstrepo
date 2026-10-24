@@ -29,7 +29,7 @@ def main():
 
         print(f"Total size: {total_kb:.2f} KB")
         print(f"Total size: {total_mb:.2f} MB")
-        print(f"Total size: {total_gb:.4f} GB")
+        print(f"Total size: {total_gb:.2f} GB")
     except ValueError as error:
         print("Invalid input:", error)
 
