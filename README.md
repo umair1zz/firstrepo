@@ -1,4 +1,4 @@
-# Storage Estimator
+# Storage Estimator - Feature Version
 
 Purpose
 This program estimates how much disk space a group of files will need,
